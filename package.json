@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "check-fsd": "npx steiger ./src"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.1.0",
+    "@nuxt/fonts": "^0.10.3",
+    "eslint": "^9.21.0",
+    "nuxt": "^3.15.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^5.2.0",
+    "postcss-html": "^1.8.0",
+    "steiger": "^0.5.5",
+    "stylelint": "^16.15.0",
+    "stylelint-config-rational-order-fix": "^0.1.9",
+    "stylelint-config-recommended-vue": "^1.6.0",
+    "stylelint-config-standard": "^37.0.0",
+    "vite-plugin-stylelint": "^6.0.0"
+  }
+}
