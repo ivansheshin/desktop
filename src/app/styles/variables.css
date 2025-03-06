@@ -1,0 +1,31 @@
+:root {
+  /* Background */
+  --color-bg-primary: #fff;
+  --color-bg-secondary: #f2f2f2;
+
+  /* Text */
+  --color-text-primary: #000;
+  --color-text-secondary: #888;
+  --color-text-tertiary: #fff;
+  --color-text-quaternary: #4f4f4f;
+  --color-text-quinary: #727783;
+
+  /* Borders */
+  --color-border-primary: #eee;
+
+  /* State */
+  --color-warning: #eb5757;
+  --color-success: #27ae60;
+
+  /* Font weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 800;
+
+  /* Font Size */
+  --font-size-xxs: 0.625rem;
+  --font-size-xs: 0.875rem;
+  --font-size-sm: 1rem;
+}
